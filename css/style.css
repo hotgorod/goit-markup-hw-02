@@ -1,0 +1,41 @@
+/* цвет текста навигации и заголовков #2E2F42;*/
+/* цвет основного текста color: #434455; */
+/* цвет background for one section and light text: #F4F4FD; */
+/* Header background, team card background #FFFFFF; */
+/* background footer: #2E2F42; */
+/* color for web and for button #4D5AE5; */
+
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: #f4f4fd;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+}
+.logo {
+  color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  /* identical to box height, or 117% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  color: var(--title-text-color);
+}
