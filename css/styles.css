@@ -20,6 +20,7 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
+
 .logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
@@ -28,10 +29,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.link {
-  text-decoration: none;
 }
 
 /* сброс настроек для списка */
@@ -50,9 +47,16 @@ body {
   letter-spacing: 0.02em;
 }
 
+.link {
+  text-decoration: none;
+}
 .link:hover,
 .link:focus {
   color: var(--active-color);
+}
+
+.address {
+  font-style: normal;
 }
 
 .address .link {
@@ -62,7 +66,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-style: normal;
 }
 
 .address .link:hover,
